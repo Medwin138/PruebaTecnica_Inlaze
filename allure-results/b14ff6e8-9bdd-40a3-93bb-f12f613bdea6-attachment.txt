@@ -1,0 +1,3 @@
+Screenshot saved: screenshots\login_attempt_20241022_115042.png
+Screenshot saved: screenshots\logout_attempt_20241022_115044.png
+Screenshot saved: screenshots\logout_successful_20241022_115044.png
