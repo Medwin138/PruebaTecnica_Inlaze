@@ -14,6 +14,7 @@
 *.log
 *.tmp
 *.bak
+*.xml
 
 # Ignorar directorios específicos
 screenshots/
