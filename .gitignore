@@ -1,7 +1,7 @@
 # Ignorar archivos HTML
 *.html
 
-# Ignorar capturas de pantalla (puedes agregar más extensiones si es necesario)
+# Ignorar capturas de pantalla
 *.png
 *.jpg
 *.jpeg
@@ -10,6 +10,11 @@
 *.svg
 *.webp
 
-# Si tienes un formato específico para capturas de pantalla, añádelo aquí
-# Por ejemplo, si usas un nombre específico como "screenshot_*.png"
-screenshot_*.png
+# Otras extensiones que quieras ignorar
+*.log
+*.tmp
+*.bak
+
+# Ignorar directorios específicos
+screenshots/
+html_reports/
