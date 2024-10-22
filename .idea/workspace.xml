@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6aa81dcb-bf64-4ade-ab08-4de7ea051ff3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest_html_report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/login_attempt_20241022_115032.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/login_attempt_20241022_115042.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/login_successful_20241022_115033.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/logout_attempt_20241022_115044.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/logout_successful_20241022_115044.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/registration_attempt_20241022_115053.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/registration_successful_20241022_115054.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
