@@ -1,0 +1,15 @@
+# Ignorar archivos HTML
+*.html
+
+# Ignorar capturas de pantalla (puedes agregar más extensiones si es necesario)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+
+# Si tienes un formato específico para capturas de pantalla, añádelo aquí
+# Por ejemplo, si usas un nombre específico como "screenshot_*.png"
+screenshot_*.png
