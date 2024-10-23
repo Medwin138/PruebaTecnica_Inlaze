@@ -34,11 +34,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest pytest-html selenium
 
-      # Paso 4: Descargar el driver de Chrome
+      # Paso 4: Configurar Chrome y ChromeDriver
       - name: Set up ChromeDriver
-        uses: Nanami7/setup-chromedriver@v1.0
+        uses: browser-actions/setup-chromedriver@v2
         with:
-          chromedriver-version: 'latest'
+          chrome-version: 'latest' # Instalamos la última versión de Chrome
 
       # Paso 5: Ejecutar las pruebas
       - name: Run pytest
