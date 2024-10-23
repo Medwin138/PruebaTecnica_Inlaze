@@ -1,48 +1,37 @@
-name: CI for Selenium Tests in Headless Mode
+name: Selenium Chrome Test
 
 on:
   push:
     branches:
       - main
-      - master
-  pull_request:
-    branches:
-      - main
-      - master
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      # Paso 1: Descargar el repositorio
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-      # Paso 2: Configurar Python en el entorno
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
-      # Paso 3: Instalar las dependencias de Python
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install pytest pytest-html selenium webdriver-manager
+          pip install -r requirements.txt
 
-      # Paso 4: Instalar Chrome y ChromeDriver
-      - name: Set up Chrome
-        uses: browser-actions/setup-chrome@v1
-
-      # Paso 5: Ejecutar las pruebas en modo headless
-      - name: Run pytest in headless mode
+      # Instalar Google Chrome
+      - name: Install Google Chrome
         run: |
-          pytest --html=reports/report.html --self-contained-html
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
 
-      # Paso 6: Cargar el reporte como artefacto
-      - name: Upload test report
-        uses: actions/upload-artifact@v3
-        with:
-          name: pytest-report
-          path: reports/report.html
+      # Verificar que Chrome se haya instalado correctamente
+      - name: Verify Chrome installation
+        run: google-chrome --version
+
+      - name: Run Selenium Tests with Chrome
+        run: |
+          pytest --headless
