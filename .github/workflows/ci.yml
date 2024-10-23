@@ -46,12 +46,13 @@ jobs:
           export DISPLAY=:99
           pytest --alluredir=allure-results
 
-      # Paso 7: Instalar Allure para generar el reporte HTML
-      - name: Install Allure
+      # Paso 7: Descargar e instalar Allure manualmente
+      - name: Install Allure manually
         run: |
-          sudo apt-add-repository ppa:qameta/allure
-          sudo apt-get update
-          sudo apt-get install allure
+          wget https://github.com/allure-framework/allure2/releases/download/2.20.1/allure-2.20.1.tgz
+          tar -zxvf allure-2.20.1.tgz
+          sudo mv allure-2.20.1 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/bin/allure
 
       # Paso 8: Generar el reporte Allure HTML
       - name: Generate Allure HTML Report
