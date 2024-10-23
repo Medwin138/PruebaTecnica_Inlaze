@@ -3,7 +3,7 @@ name: Selenium Chrome Test
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
