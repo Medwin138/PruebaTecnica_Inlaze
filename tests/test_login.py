@@ -1,3 +1,5 @@
+from ssl import Options
+
 import pytest
 import pytest_html
 
@@ -5,10 +7,18 @@ from pages.login_page import LoginPage
 
 @pytest.fixture(scope="function")
 def setup():
-    from selenium import webdriver
-    driver = webdriver.Chrome()
-    yield driver
-    driver.quit()
+    # Configuración de opciones para Chrome
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")  # Ejecutar en modo headless
+    chrome_options.add_argument("--no-sandbox")  # Requerido para entornos de CI
+    chrome_options.add_argument("--disable-dev-shm-usage")  # Soluciona problemas de memoria
+
+    # Inicializa el driver de Chrome
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
+    yield driver  # Devuelve el driver para su uso en pruebas
+
+    driver.quit()  # Cierra el driver después de la prueba
 
 def test_login_successful(setup, request):
     login_page = LoginPage(setup)
