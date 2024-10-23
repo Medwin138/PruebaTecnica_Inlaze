@@ -44,11 +44,23 @@ jobs:
         run: |
           Xvfb :99 -screen 0 1920x1080x24 &
           export DISPLAY=:99
-          pytest --alluredir=allure-results  # Ejecuta pytest sin los flags headless
+          pytest --alluredir=allure-results
 
-      # Paso 7: Cargar los resultados de Allure como artefacto
-      - name: Upload Allure results
+      # Paso 7: Instalar Allure para generar el reporte HTML
+      - name: Install Allure
+        run: |
+          sudo apt-add-repository ppa:qameta/allure
+          sudo apt-get update
+          sudo apt-get install allure
+
+      # Paso 8: Generar el reporte Allure HTML
+      - name: Generate Allure HTML Report
+        run: |
+          allure generate allure-results --clean -o allure-report
+
+      # Paso 9: Cargar el reporte Allure HTML como artefacto
+      - name: Upload Allure HTML report
         uses: actions/upload-artifact@v3
         with:
-          name: allure-results
-          path: allure-results/
+          name: allure-html-report
+          path: allure-report/
