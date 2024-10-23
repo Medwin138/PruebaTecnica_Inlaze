@@ -40,11 +40,13 @@ jobs:
         run: sudo apt-get install -y xvfb
 
       # Paso 6: Ejecutar las pruebas en modo headless con Xvfb
-      - name: Run pytest in headless mode with Xvfb
+      - name: Run Xvfb
         run: |
           Xvfb :99 -screen 0 1920x1080x24 &
+          sleep 5  # Espera a que Xvfb se inicie
           export DISPLAY=:99
           pytest --html=report.html --self-contained-html
+
 
       # Paso 7: Cargar el reporte HTML como artefacto
       - name: Upload HTML report
