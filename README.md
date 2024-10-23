@@ -23,7 +23,7 @@ Este proyecto está diseñado para automatizar pruebas de inicio de sesión, cie
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu_usuario/nombre_del_repositorio.git
-   cd nombre_del_repositorio
+   cd nombre_del_repositorio](https://github.com/Medwin138/PruebaTecnica_Inlaze.git
 
 ## Ejecutar Pruebas
 Asegúrate de tener el ChromeDriver instalado y que sea compatible con la versión de Google Chrome que tienes en tu máquina. Descarga ChromeDriver.
