@@ -44,7 +44,7 @@ jobs:
         run: |
           Xvfb :99 -screen 0 1920x1080x24 &
           export DISPLAY=:99
-          pytest --alluredir=allure-results --headless --disable-gpu
+          pytest --alluredir=allure-results  # Ejecuta pytest sin los flags headless
 
       # Paso 7: Cargar los resultados de Allure como artefacto
       - name: Upload Allure results
