@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aa81dcb-bf64-4ade-ab08-4de7ea051ff3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +32,28 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2nkkrML26ZYKKstti8ni8GvdMJP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.test_login.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USUARIO/Documents/GitHub/PruebaTecnica_Inlaze",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\trabajo\PruebaTecnica_Inlaze\tests\.pytest_cache" />
@@ -52,21 +61,44 @@
       <recent name="E:\trabajo\PruebaTecnica_Inlaze\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_login.py">
-    <configuration name="login_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_login">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="PruebaTecnica_Inlaze" />
+      <option name="ENV_FILES" value="$PROJECT_DIR$" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="E:\trabajo\PruebaTecnica_Inlaze\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\USUARIO\Documents\GitHub\PruebaTecnica_Inlaze" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/login_page.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PruebaTecnica_Inlaze" />
+      <option name="ENV_FILES" value="C:\Users\USUARIO\Documents\GitHub\PruebaTecnica_Inlaze\.env" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testsC:/Users/USUARIO/.m2/repository" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_login.py" />
+      <option name="PARAMETERS" value="$JDKPath$$MAVEN_REPOSITORY$" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -76,6 +108,7 @@
     </configuration>
     <configuration name="Python tests for test_login.test_logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PruebaTecnica_Inlaze" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -90,6 +123,7 @@
     </configuration>
     <configuration name="Python tests for test_login.test_register" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PruebaTecnica_Inlaze" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -104,6 +138,7 @@
     </configuration>
     <configuration name="Python tests in E:/trabajo/PruebaTecnica_Inlaze/tests/test_register_user.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PruebaTecnica_Inlaze" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="E:\trabajo\PruebaTecnica_Inlaze\venv\Scripts\python.exe" />
@@ -118,6 +153,7 @@
     </configuration>
     <configuration name="Python tests in test_login.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PruebaTecnica_Inlaze" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="E:\trabajo\PruebaTecnica_Inlaze\venv\Scripts\python.exe" />
@@ -131,19 +167,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.login_page" />
-      <item itemvalue="Python tests.Python tests for test_login.test_register" />
+      <item itemvalue="Python.test_login" />
       <item itemvalue="Python tests.Python tests for test_login.test_logout" />
+      <item itemvalue="Python tests.Python tests for test_login.test_register" />
       <item itemvalue="Python tests.Python tests in E:/trabajo/PruebaTecnica_Inlaze/tests/test_register_user.py" />
       <item itemvalue="Python tests.Python tests in test_login.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_login.py" />
-        <item itemvalue="Python tests.Python tests for test_login.test_register" />
-        <item itemvalue="Python tests.Python tests for test_login.test_logout" />
-        <item itemvalue="Python.login_page" />
-        <item itemvalue="Python tests.Python tests in E:/trabajo/PruebaTecnica_Inlaze/tests/test_register_user.py" />
+        <item itemvalue="Python.test_login" />
       </list>
     </recent_temporary>
   </component>
