@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ## Estructura del Proyecto
 esta es laestructura basica del proyecto 
 
-/proyecto
+/PruebaTecnica_Inlaze
 │
 ├── pages
 │   ├── login_page.py         # Clase para manejar la lógica de la página de inicio de sesión y registro.
