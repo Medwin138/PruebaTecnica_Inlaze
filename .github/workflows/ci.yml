@@ -3,11 +3,11 @@ name: CI for Selenium Tests in Headless Mode
 on:
   push:
     branches:
-      - main
+      - Develop
       - master
   pull_request:
     branches:
-      - main
+      - Develop
       - master
 
 jobs:
@@ -29,20 +29,26 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pytest pytest-html selenium webdriver-manager
+          pip install pytest pytest-html selenium webdriver-manager allure-pytest
 
       # Paso 4: Instalar Chrome y ChromeDriver
       - name: Set up Chrome
         uses: browser-actions/setup-chrome@v1
 
-      # Paso 5: Ejecutar las pruebas en modo headless
-      - name: Run pytest in headless mode
-        run: |
-          pytest --html=reports/report.html --self-contained-html
+      # Paso 5: Instalar Xvfb (Virtual Framebuffer) para que Chrome se ejecute en modo headless
+      - name: Install Xvfb
+        run: sudo apt-get install -y xvfb
 
-      # Paso 6: Cargar el reporte como artefacto
-      - name: Upload test report
+      # Paso 6: Ejecutar las pruebas en modo headless con Xvfb
+      - name: Run pytest in headless mode with Xvfb
+        run: |
+          Xvfb :99 -screen 0 1920x1080x24 &
+          export DISPLAY=:99
+          pytest --alluredir=allure-results --headless --disable-gpu
+
+      # Paso 7: Cargar los resultados de Allure como artefacto
+      - name: Upload Allure results
         uses: actions/upload-artifact@v3
         with:
-          name: pytest-report
-          path: reports/report.html
+          name: allure-results
+          path: allure-results/
