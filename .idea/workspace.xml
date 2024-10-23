@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6aa81dcb-bf64-4ade-ab08-4de7ea051ff3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,29 +55,8 @@
       <recent name="E:\trabajo\PruebaTecnica_Inlaze\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_login.py">
-    <configuration name="login_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PruebaTecnica_Inlaze" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\trabajo\PruebaTecnica_Inlaze\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/login_page.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_login.test_logout" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_login.test_register_password_mismatch">
+    <configuration name="Python tests for test_login.test_register_email_uniqueness" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PruebaTecnica_Inlaze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +66,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.test_logout&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_register_email_uniqueness&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_login.test_register" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_login.test_register_name_validation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PruebaTecnica_Inlaze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,52 +80,66 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.test_register&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_register_name_validation&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in E:/trabajo/PruebaTecnica_Inlaze/tests/test_register_user.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_login.test_register_password_mismatch" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PruebaTecnica_Inlaze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="E:\trabajo\PruebaTecnica_Inlaze\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_register_user.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_register_password_mismatch&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_login.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_login.test_register_password_validation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PruebaTecnica_Inlaze" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="E:\trabajo\PruebaTecnica_Inlaze\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_login.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_register_password_validation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login.test_register_required_fields" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PruebaTecnica_Inlaze" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.test_register_required_fields&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.login_page" />
-      <item itemvalue="Python tests.Python tests for test_login.test_register" />
-      <item itemvalue="Python tests.Python tests for test_login.test_logout" />
-      <item itemvalue="Python tests.Python tests in E:/trabajo/PruebaTecnica_Inlaze/tests/test_register_user.py" />
-      <item itemvalue="Python tests.Python tests in test_login.py" />
+      <item itemvalue="Python tests.Python tests for test_login.test_register_email_uniqueness" />
+      <item itemvalue="Python tests.Python tests for test_login.test_register_name_validation" />
+      <item itemvalue="Python tests.Python tests for test_login.test_register_password_mismatch" />
+      <item itemvalue="Python tests.Python tests for test_login.test_register_password_validation" />
+      <item itemvalue="Python tests.Python tests for test_login.test_register_required_fields" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_login.py" />
-        <item itemvalue="Python tests.Python tests for test_login.test_register" />
-        <item itemvalue="Python tests.Python tests for test_login.test_logout" />
-        <item itemvalue="Python.login_page" />
-        <item itemvalue="Python tests.Python tests in E:/trabajo/PruebaTecnica_Inlaze/tests/test_register_user.py" />
+        <item itemvalue="Python tests.Python tests for test_login.test_register_password_mismatch" />
+        <item itemvalue="Python tests.Python tests for test_login.test_register_required_fields" />
+        <item itemvalue="Python tests.Python tests for test_login.test_register_password_validation" />
+        <item itemvalue="Python tests.Python tests for test_login.test_register_email_uniqueness" />
+        <item itemvalue="Python tests.Python tests for test_login.test_register_name_validation" />
       </list>
     </recent_temporary>
   </component>
